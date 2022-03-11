@@ -1,3 +1,6 @@
 export default {
-  npmClient: 'pnpm'
+  npmClient: 'pnpm',
+  apiRoute: {
+    platform: 'vercel'
+  }
 };
