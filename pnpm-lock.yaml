@@ -10,13 +10,13 @@ specifiers:
   jsonwebtoken: ^8.5.1
   prisma: ^3.10.0
   typescript: ^4.1.2
-  umi: ^4.0.0-canary.20220316.1
+  umi: 4.0.0-canary.20220316.1
 
 dependencies:
   '@prisma/client': 3.11.0_prisma@3.11.0
   bcryptjs: 2.4.3
   jsonwebtoken: 8.5.1
-  umi: 4.0.0-rc.6
+  umi: 4.0.0-canary.20220316.1
 
 devDependencies:
   '@types/bcryptjs': 2.4.2
@@ -705,8 +705,8 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /@parcel/css-darwin-arm64/1.5.0:
-    resolution: {integrity: sha512-5JwRRADWu7dWRvN0XbUGTWnTNOQaCCxWtXRRPSS9hDQnc337eCjfQknRPX+CSh1uzX+LJu37xfYF2odzkjpFTQ==}
+  /@parcel/css-darwin-arm64/1.6.0:
+    resolution: {integrity: sha512-bz6LQ4xVy3bzGXx9QPW5MB2oabwid03Lq/hS5/Od6cQyek2uKvBx6ExdofQswoLuUD3GVNxJPn8DQ0RaSIyTLA==}
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [darwin]
@@ -714,8 +714,8 @@ packages:
     dev: false
     optional: true
 
-  /@parcel/css-darwin-x64/1.5.0:
-    resolution: {integrity: sha512-dJgoLl+9kEBzXHnYG1XxyUSXxOceQgK/19/E11XBEVxRIF1yBHxhmpFuJaTVCIJbsotYKLr+H+CmOA0dgfKJcQ==}
+  /@parcel/css-darwin-x64/1.6.0:
+    resolution: {integrity: sha512-N90dwaY62i5chn/XSM6/txjqoOTM3mRO//yQ5eQfma3BLDJ/B6qjnzg7UUYfaq+NGwtgxaL+I0lHVcVGOr+/KA==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [darwin]
@@ -723,8 +723,8 @@ packages:
     dev: false
     optional: true
 
-  /@parcel/css-linux-arm-gnueabihf/1.5.0:
-    resolution: {integrity: sha512-PiasN1xjWp+RI3sczc+Kfg4W6jnD9k7Zpz4qLRamUvZS5NE31X3rKsxkJlaNLjXM2RfeaWhcxEV87isMKRK9TQ==}
+  /@parcel/css-linux-arm-gnueabihf/1.6.0:
+    resolution: {integrity: sha512-ZoodK+/bs6iZBHn2tzmTA7XDXh/w85EoVH1aQAriuzIA8c6iT2aYikz/skh0ccv9tHfVD8EQi/B73uzgb15J/A==}
     engines: {node: '>= 12.0.0'}
     cpu: [arm]
     os: [linux]
@@ -732,8 +732,8 @@ packages:
     dev: false
     optional: true
 
-  /@parcel/css-linux-arm64-gnu/1.5.0:
-    resolution: {integrity: sha512-mKJeC5p3E4z3XbRi9iBcdOe8OYAwI1CAdOmf3lKfWr1m1vuAFUG2D/YykShZUTbPRnW+m1DFuAVHXcv0zLuxww==}
+  /@parcel/css-linux-arm64-gnu/1.6.0:
+    resolution: {integrity: sha512-G6rJy4FuXay9POG0xJBSh4zfOLGpwDSospbze/3s82mP5uvF7BsBFT29eLRr27yC3f3pOZs05LHh3dnh9VEK3w==}
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
@@ -741,8 +741,8 @@ packages:
     dev: false
     optional: true
 
-  /@parcel/css-linux-arm64-musl/1.5.0:
-    resolution: {integrity: sha512-sZPaVtnK/RG1CStBJzNMxjcZasb/veuvaq+GbcZaOTAHKA+fzNFWrSgM/1xHDdVOk8boVWT4Vn3AUgZrrbqmEQ==}
+  /@parcel/css-linux-arm64-musl/1.6.0:
+    resolution: {integrity: sha512-opef+mSexRcCjNolOs5ocxSALU0Trlht/7+2inmHL6kLj0hxSBwVtQ5IKr6o5OQqG6Q7SFUSM+LIVubOfb6uzA==}
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
@@ -750,8 +750,8 @@ packages:
     dev: false
     optional: true
 
-  /@parcel/css-linux-x64-gnu/1.5.0:
-    resolution: {integrity: sha512-dDkbsx9S/EE3Sph9Az3PAFOgi2q2xSmRdME4PgnXGsux6R2hHwG+RGX0V406XyxTkIL4Gt8Vmmr09T0y+cdGSw==}
+  /@parcel/css-linux-x64-gnu/1.6.0:
+    resolution: {integrity: sha512-dNI8t9wHp5pJW1SSl+QyCgp0x4NXmHquiTvJC3hRMIMphzq82s0PN5aCtWbqeO3hU6aSOzN3OSOWgwIsE3T5Iw==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
@@ -759,8 +759,8 @@ packages:
     dev: false
     optional: true
 
-  /@parcel/css-linux-x64-musl/1.5.0:
-    resolution: {integrity: sha512-5Xpd+zu6OeI3h8Jk0AWpZwQkXbmlxNP+Jn+1yxec1wBO03Ke58r0glcyiaFSYjJeYTgWK9Rl/M5IucIKy4bvzg==}
+  /@parcel/css-linux-x64-musl/1.6.0:
+    resolution: {integrity: sha512-VJR8iZAJ00Y4vQda3uB2Dl+Lg29/e/9kYxDxYI7p83oZFV0ousdgNMn2Wlt7Q345BwGICvv4tocR/Nh2m+nD5g==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
@@ -768,8 +768,8 @@ packages:
     dev: false
     optional: true
 
-  /@parcel/css-win32-x64-msvc/1.5.0:
-    resolution: {integrity: sha512-wp5/n4HEXp61MKyrPmSPOg3UEO4rE5BPT8Ab7jv+jML0X978vurBOaT0pH57z1MFNmLwCkCylDx0JiggjZvPMg==}
+  /@parcel/css-win32-x64-msvc/1.6.0:
+    resolution: {integrity: sha512-TV4NWrRbjkbQ/iNIP24x0uDp/m28W9v/xT4ZYCH2CwiUfU+OYNNuUPgfpsBNS1grTmMkU2qy9bnZWvV8i8L3fg==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [win32]
@@ -777,20 +777,20 @@ packages:
     dev: false
     optional: true
 
-  /@parcel/css/1.5.0:
-    resolution: {integrity: sha512-nfZDYfxL60RNmST6fvlfIdulZnoPDrkce+qxHHZXvvoxjDrdn6T4Z1bz7QB9EmCJHcyNpDKEmkZTrBX0skUGbQ==}
+  /@parcel/css/1.6.0:
+    resolution: {integrity: sha512-MViIcvGh3JVw/HoAYnqD9OFob67p8JQeXF5sNsgwFxKqmHwUm79nOO6OZrQBPWcI9y5ZVSLk0iIgB8j+7Sg1+g==}
     engines: {node: '>= 12.0.0'}
     dependencies:
       detect-libc: 1.0.3
     optionalDependencies:
-      '@parcel/css-darwin-arm64': 1.5.0
-      '@parcel/css-darwin-x64': 1.5.0
-      '@parcel/css-linux-arm-gnueabihf': 1.5.0
-      '@parcel/css-linux-arm64-gnu': 1.5.0
-      '@parcel/css-linux-arm64-musl': 1.5.0
-      '@parcel/css-linux-x64-gnu': 1.5.0
-      '@parcel/css-linux-x64-musl': 1.5.0
-      '@parcel/css-win32-x64-msvc': 1.5.0
+      '@parcel/css-darwin-arm64': 1.6.0
+      '@parcel/css-darwin-x64': 1.6.0
+      '@parcel/css-linux-arm-gnueabihf': 1.6.0
+      '@parcel/css-linux-arm64-gnu': 1.6.0
+      '@parcel/css-linux-arm64-musl': 1.6.0
+      '@parcel/css-linux-x64-gnu': 1.6.0
+      '@parcel/css-linux-x64-musl': 1.6.0
+      '@parcel/css-win32-x64-msvc': 1.6.0
     dev: false
 
   /@pmmmwh/react-refresh-webpack-plugin/0.5.4:
@@ -1170,28 +1170,28 @@ packages:
       '@types/yargs-parser': 21.0.0
     dev: false
 
-  /@umijs/ast/4.0.0-rc.6:
-    resolution: {integrity: sha512-7kIcPXVoRx0XhN//KjE2+xEQVtUHJ4B9kvc1qv7OuDft4zylrRHSUr1SWU/bvGMmvSdz3xxVuOzbF6MufcNv9A==}
+  /@umijs/ast/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-h5Y5KTYkP6zvPzz0iSjvNu4npUUSObZJYam+IYnd002s8L+tmOJ8JOfeWa4esUaJN9e7fmIewbkQRys1HGNsuw==}
     dependencies:
-      '@umijs/bundler-utils': 4.0.0-rc.6
+      '@umijs/bundler-utils': 4.0.0-canary.20220316.1
     dev: false
 
-  /@umijs/babel-preset-umi/4.0.0-rc.6:
-    resolution: {integrity: sha512-PUM3Lavb5yiHcV51HFm07QKhnWKknXAAL9Qj00KBL1ZdDVzSzebQeLGpNMI37h5KamciEca5AWlz9EoTal5I9A==}
+  /@umijs/babel-preset-umi/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-Lew6+rH4ziZLXgw1p6BAPz8F0FokFQFeZ0kmqufOxos1Xi9TATjnfNmbc31wwFVVSdbuRNSF8N6exJGNyMyiyA==}
     dependencies:
       '@babel/runtime': 7.17.2
       '@bloomberg/record-tuple-polyfill': 0.0.4
-      '@umijs/bundler-utils': 4.0.0-rc.6
-      '@umijs/utils': 4.0.0-rc.6
+      '@umijs/bundler-utils': 4.0.0-canary.20220316.1
+      '@umijs/utils': 4.0.0-canary.20220316.1
       core-js: 3.21.1
     dev: false
 
-  /@umijs/bundler-esbuild/4.0.0-rc.6:
-    resolution: {integrity: sha512-Bhb0y1F0yNf+yejQtn7kAIZtxT9x+rW2sgpKDnuwQIIBQGy6DpUZriTI1eewa4Ar61HHya9eLq0q4RFSAfV7OQ==}
+  /@umijs/bundler-esbuild/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-7HNyAyh0jFxcueRYO2Gj/c3xt5mmabGy6DCol3tYvu8lglfVfv11DTnFKv7Sfw96M8PcbCLaH88d7fFgZdNmrQ==}
     hasBin: true
     dependencies:
-      '@umijs/bundler-utils': 4.0.0-rc.6
-      '@umijs/utils': 4.0.0-rc.6
+      '@umijs/bundler-utils': 4.0.0-canary.20220316.1
+      '@umijs/utils': 4.0.0-canary.20220316.1
       enhanced-resolve: 5.9.2
       less: 4.1.2
       less-plugin-aliases: 1.0.3
@@ -1200,20 +1200,20 @@ packages:
       postcss-preset-env: 7.4.2_postcss@8.4.11
     dev: false
 
-  /@umijs/bundler-utils/4.0.0-rc.6:
-    resolution: {integrity: sha512-2h3i//Yqm9KBrLAh3CxxdECdTgHmIE1yaZpOA179fOz8X4m2raoqdZQ6tdP20Mclap3MvWwDzP098F/uVGggbw==}
+  /@umijs/bundler-utils/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-yvvG6WsxReTKcvPX9JGwAW19Fawzws/SM9Ma6uj5dirMIPMuNLytb2rnxEOZDCRWUDFJdjKeZpVdCWY4+OWKOg==}
     dependencies:
-      '@umijs/utils': 4.0.0-rc.6
+      '@umijs/utils': 4.0.0-canary.20220316.1
       esbuild: 0.14.25
     dev: false
 
-  /@umijs/bundler-vite/4.0.0-rc.6:
-    resolution: {integrity: sha512-mDNbtqrYAMN8RFwAhKO2YWxpv3tWLS4v8ZZD3BzgF1KB/0eGcxCPrLT8cYSQyu+yfFmKvxtTrRgfLdTat+Yctw==}
+  /@umijs/bundler-vite/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-oj8a/50sdhaGVt90lizIzxX1KpiK0bktfnAsdpy+AvZtY6r5xUp1vuULvbue44vOYHqX2gDJQCVvl3ToHFpFBw==}
     hasBin: true
     dependencies:
       '@svgr/core': 6.2.1
-      '@umijs/bundler-utils': 4.0.0-rc.6
-      '@umijs/utils': 4.0.0-rc.6
+      '@umijs/bundler-utils': 4.0.0-canary.20220316.1
+      '@umijs/utils': 4.0.0-canary.20220316.1
       '@vitejs/plugin-react': 1.2.0
       postcss-preset-env: 7.4.2
     transitivePeerDependencies:
@@ -1221,19 +1221,19 @@ packages:
       - supports-color
     dev: false
 
-  /@umijs/bundler-webpack/4.0.0-rc.6:
-    resolution: {integrity: sha512-B+UEB3jRnlcAoNC4eQUqOdqOa9nh0+7LDQFYwWg5wWUgUxfPE3JsuRxsswDWBoiGSGcKNZudqgUV1EdkfggV4A==}
+  /@umijs/bundler-webpack/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-uzu8y/Z1cKg524BPR6R8pcuGdKCvtZ1FfZjmOJ+ccpRa+fhihEXgFx334yJW/FdchpZPYv6l//BPJMC3QnUMLA==}
     hasBin: true
     dependencies:
-      '@parcel/css': 1.5.0
+      '@parcel/css': 1.6.0
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.4
       '@svgr/core': 6.2.1
       '@svgr/plugin-jsx': 6.2.1_@svgr+core@6.2.1
       '@svgr/plugin-svgo': 6.2.0_@svgr+core@6.2.1
       '@types/hapi__joi': 17.1.8
-      '@umijs/babel-preset-umi': 4.0.0-rc.6
-      '@umijs/mfsu': 4.0.0-rc.6
-      '@umijs/utils': 4.0.0-rc.6
+      '@umijs/babel-preset-umi': 4.0.0-canary.20220316.1
+      '@umijs/mfsu': 4.0.0-canary.20220316.1
+      '@umijs/utils': 4.0.0-canary.20220316.1
       css-loader: 6.7.1
       es5-imcompatible-versions: 0.1.73
       jest-worker: 27.5.1
@@ -1253,35 +1253,35 @@ packages:
       - webpack-plugin-serve
     dev: false
 
-  /@umijs/core/4.0.0-rc.6:
-    resolution: {integrity: sha512-SVIG2JfDmLIwQrgfRIvJlm543h8DK9NjggRXtFqF4Rztcs9TRlTH9vDeCamXRaCWS9XdZhl4pv2OhdOUoHXHvQ==}
+  /@umijs/core/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-Rxs3/68Ew4OqFsdl8YHIl+kMo0H606EN6Xxb9IsHCG3N2PGKTlynMm05MdlbBMsr7/F11y/7rWyPlLg9LyMkAw==}
     dependencies:
-      '@umijs/bundler-utils': 4.0.0-rc.6
-      '@umijs/utils': 4.0.0-rc.6
+      '@umijs/bundler-utils': 4.0.0-canary.20220316.1
+      '@umijs/utils': 4.0.0-canary.20220316.1
     dev: false
 
-  /@umijs/mfsu/4.0.0-rc.6:
-    resolution: {integrity: sha512-lw47Zn/rZCBq+6IJVUkLrFp4LAWrlO8WDDGgfeGh0J86H3+g2EvUtOr4bsBOh/xc/Vu5D9FsgrLN/+J1p20aEQ==}
+  /@umijs/mfsu/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-A3uHpxnZBrVXoGrZuD0ag48KK4jsTq7is2OZYDn/QCxccgkCmcWOcDKWuZELRcIxrjQKFdDQlM3qDqYj4E/T7Q==}
     dependencies:
-      '@umijs/bundler-esbuild': 4.0.0-rc.6
-      '@umijs/bundler-utils': 4.0.0-rc.6
-      '@umijs/utils': 4.0.0-rc.6
+      '@umijs/bundler-esbuild': 4.0.0-canary.20220316.1
+      '@umijs/bundler-utils': 4.0.0-canary.20220316.1
+      '@umijs/utils': 4.0.0-canary.20220316.1
       enhanced-resolve: 5.9.2
     dev: false
 
-  /@umijs/preset-umi/4.0.0-rc.6:
-    resolution: {integrity: sha512-TkKuRi678NSKKqB1dPq+PSIMvnnaTCjUdtGLTHXELapI/DUK+Tu2QRWT/94YerJm1rHb9k58tUE/u9p+h0m8/Q==}
+  /@umijs/preset-umi/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-o16OzL0tseFbUuYM/ensBuhZpp31T11GuSP0Qo87u6N6ZD3xVzEmDGqRXQHlvhbRoCMLViUmUOyZlms6wdC26A==}
     dependencies:
       '@types/multer': 1.4.7
-      '@umijs/ast': 4.0.0-rc.6
-      '@umijs/babel-preset-umi': 4.0.0-rc.6
-      '@umijs/bundler-utils': 4.0.0-rc.6
-      '@umijs/bundler-vite': 4.0.0-rc.6
-      '@umijs/bundler-webpack': 4.0.0-rc.6
-      '@umijs/core': 4.0.0-rc.6
-      '@umijs/renderer-react': 4.0.0-rc.6_react-dom@17.0.2+react@17.0.2
-      '@umijs/server': 4.0.0-rc.6
-      '@umijs/utils': 4.0.0-rc.6
+      '@umijs/ast': 4.0.0-canary.20220316.1
+      '@umijs/babel-preset-umi': 4.0.0-canary.20220316.1
+      '@umijs/bundler-utils': 4.0.0-canary.20220316.1
+      '@umijs/bundler-vite': 4.0.0-canary.20220316.1
+      '@umijs/bundler-webpack': 4.0.0-canary.20220316.1
+      '@umijs/core': 4.0.0-canary.20220316.1
+      '@umijs/renderer-react': 4.0.0-canary.20220316.1_react-dom@17.0.2+react@17.0.2
+      '@umijs/server': 4.0.0-canary.20220316.1
+      '@umijs/utils': 4.0.0-canary.20220316.1
       core-js: 3.21.1
       current-script-polyfill: 1.0.0
       enhanced-resolve: 5.9.2
@@ -1305,8 +1305,8 @@ packages:
       - webpack-plugin-serve
     dev: false
 
-  /@umijs/renderer-react/4.0.0-rc.6:
-    resolution: {integrity: sha512-eQ7jYwdc9QwXJ8fJooeoXyghPq+22FQmAOHXD6MD9kh7OzSlBAj7wLEkAJWAqWUqZjjfNPXT1QEmO7hy5wE/xQ==}
+  /@umijs/renderer-react/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-84Niyn+BDN6+O+UWTEeYIMudaGeQdpRUqOaYHlY9a1qDDkIcLf2pd4xrcwfGj+6PXqT4E/AkcXLxyuO7M005sw==}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
@@ -1316,8 +1316,8 @@ packages:
       react-router-dom: 6.2.2
     dev: false
 
-  /@umijs/renderer-react/4.0.0-rc.6_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-eQ7jYwdc9QwXJ8fJooeoXyghPq+22FQmAOHXD6MD9kh7OzSlBAj7wLEkAJWAqWUqZjjfNPXT1QEmO7hy5wE/xQ==}
+  /@umijs/renderer-react/4.0.0-canary.20220316.1_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-84Niyn+BDN6+O+UWTEeYIMudaGeQdpRUqOaYHlY9a1qDDkIcLf2pd4xrcwfGj+6PXqT4E/AkcXLxyuO7M005sw==}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
@@ -1329,8 +1329,8 @@ packages:
       react-router-dom: 6.2.2_react-dom@17.0.2+react@17.0.2
     dev: false
 
-  /@umijs/server/4.0.0-rc.6:
-    resolution: {integrity: sha512-AhX955mXuh4JSR+tjj9ch1HFaNd/fHaEAbX2L3E9Hez4p2xbeBrQ2C6fI5J2t1O+R+EuyiXzYSVlCEKOJqcEzg==}
+  /@umijs/server/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-35+TnHYrHpdckm4YYNfZtfsOYMLi7eXmZFQKrKe8SAtIYsVQBEVz7xvqGEHi8DpU2VKNr0CoM1G1IahafGwsqA==}
     dependencies:
       history: 5.3.0
       react: 17.0.2
@@ -1338,8 +1338,8 @@ packages:
       react-router-dom: 6.2.2_react-dom@17.0.2+react@17.0.2
     dev: false
 
-  /@umijs/test/4.0.0-rc.6:
-    resolution: {integrity: sha512-dEBm+WwiBGwaCCof0DQrtoQcw/bUJSy5HAwmNhA6rhJRiLN8CnyfFzUvMokMOYH8Y1gubk7H/1RITN+C7Y/q8Q==}
+  /@umijs/test/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-4Bv52TZKTyThk44Qpx4MGu2nO39z9yhSK7gwRGsx+NHmSv3czV2spo3Qev3PHcP54YH5PtYc7IQg4Ean+SjEIA==}
     dependencies:
       '@jest/types': 27.5.1
       esbuild: 0.14.25
@@ -1351,8 +1351,8 @@ packages:
       - supports-color
     dev: false
 
-  /@umijs/utils/4.0.0-rc.6:
-    resolution: {integrity: sha512-CzangNFYtQb4KQ73Qi6lgDfEpEXNrHChYEnYKtzwRPiG4RdQTOMsU1wE8He/4KTzFI4Od+UmIcEs9VY79aflcw==}
+  /@umijs/utils/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-NdSi4B9l21IaJVVRaCfztmj2MDvIrjLIxiaNF2aH5x8rzGOoUPtjuVJYd2ituOZpILNezt3m5W9mv4uFQt46uA==}
     dependencies:
       chokidar: 3.5.3
     dev: false
@@ -5119,15 +5119,15 @@ packages:
     hasBin: true
     dev: true
 
-  /umi/4.0.0-rc.6:
-    resolution: {integrity: sha512-Q6i6o/sar7psrBMNGojK2Lt/4fWlryVsG8fQ2k0gJ14FERtCIqVLCh7x24BNf9VM2lYG2l/YU6COGgRQhMNZ5g==}
+  /umi/4.0.0-canary.20220316.1:
+    resolution: {integrity: sha512-tGVFSI62MDjQ4UDMAdk2CE0TkXEEDLz8rRcVENe74wAmH8YXwyn5R4bDCBJibulxtoD2PRK1kYOqnA3De3iORQ==}
     hasBin: true
     dependencies:
-      '@umijs/core': 4.0.0-rc.6
-      '@umijs/preset-umi': 4.0.0-rc.6
-      '@umijs/renderer-react': 4.0.0-rc.6
-      '@umijs/test': 4.0.0-rc.6
-      '@umijs/utils': 4.0.0-rc.6
+      '@umijs/core': 4.0.0-canary.20220316.1
+      '@umijs/preset-umi': 4.0.0-canary.20220316.1
+      '@umijs/renderer-react': 4.0.0-canary.20220316.1
+      '@umijs/test': 4.0.0-canary.20220316.1
+      '@umijs/utils': 4.0.0-canary.20220316.1
     transitivePeerDependencies:
       - '@types/webpack'
       - encoding
