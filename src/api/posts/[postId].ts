@@ -10,6 +10,10 @@ export default async function (req: UmiApiRequest, res: UmiApiResponse) {
         where: { id: +req.params.postId },
         include: { author: true }
       });
+      if (!post) {
+        res.status(404).json({ error: 'Post not found.' });
+        return;
+      }
       res.status(200).json(post);
       await prisma.$disconnect()
       break;
