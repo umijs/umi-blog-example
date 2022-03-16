@@ -32,7 +32,7 @@ export default function PostPage() {
     return <div>Post with ID {params.postId} not found.</div>
   }
 
-  return <div>
+  return <div className="max-w-screen overflow-x-hidden">
     <div className="w-full lg:h-[46rem] h-[36rem] overflow-hidden relative flex justify-center">
       <img src={post.imageUrl} className="absolute top-0 w-full h-full object-cover"  alt="" />
       <div className="w-full h-full absolute top-0 right-0 bg-black bg-opacity-60"/>
