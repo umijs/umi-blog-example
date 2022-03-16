@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "umi dev",
-    "build": "umi build",
+    "build": "prisma generate && bash umi-rc6-polyfill.sh && umi build",
     "postinstall": "umi setup",
     "start": "npm run dev"
   },

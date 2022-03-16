@@ -1,12 +1,7 @@
 import { UmiApiRequest, UmiApiResponse } from "umi";
 import { PrismaClient } from '@prisma/client'
-import * as fs from "fs";
-import { join } from "path";
 
 export default async function (req: UmiApiRequest, res: UmiApiResponse) {
-  console.error(process.cwd())
-  console.error(__dirname)
-  console.error(fs.existsSync(join(__dirname, '../../../../schema.prisma')))
   switch (req.method) {
     case 'GET':
       const prisma = new PrismaClient();
