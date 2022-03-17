@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+    @apply text-blue-600 mx-1 hover:text-blue-300 transition dark:text-blue-400;
+    background-image: linear-gradient(
+            transparent 60%,
+            rgba(130, 199, 255, 0.28) 55%
+    );
+}
