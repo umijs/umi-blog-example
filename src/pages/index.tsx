@@ -30,9 +30,9 @@ export default function HomePage() {
           <p className="animate-pulse">Loading...</p>
       </div>}
       {posts && <div className="container flex flex-row w-full justify-center
-       flex-wrap p-4 px-8 lg:px-64">
+       flex-wrap p-4 px-2 md:px-24 xl:px-64">
         {posts.map(post => <div
-          key={post.id} className="w-1/2 p-4">
+          key={post.id} className="w-full lg:w-1/2 p-4">
           <div
             onClick={() => history.push(`/posts/${post.id}`)}
             className="w-full h-64 bg-white relative transition-all
