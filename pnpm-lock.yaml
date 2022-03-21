@@ -7,6 +7,7 @@ specifiers:
   '@types/react': ^17.0.0
   '@types/react-dom': ^17.0.0
   '@umijs/plugins': 4.0.0-canary.20220316.1
+  '@upstash/redis': ^1.0.2
   bcryptjs: ^2.4.3
   jsonwebtoken: ^8.5.1
   prisma: ^3.10.0
@@ -17,6 +18,7 @@ specifiers:
 dependencies:
   '@prisma/client': 3.11.0_prisma@3.11.0
   '@umijs/plugins': 4.0.0-canary.20220316.1
+  '@upstash/redis': 1.0.2
   bcryptjs: 2.4.3
   jsonwebtoken: 8.5.1
   tailwindcss: 3.0.23
@@ -1668,6 +1670,15 @@ packages:
     resolution: {integrity: sha512-NdSi4B9l21IaJVVRaCfztmj2MDvIrjLIxiaNF2aH5x8rzGOoUPtjuVJYd2ituOZpILNezt3m5W9mv4uFQt46uA==}
     dependencies:
       chokidar: 3.5.3
+    dev: false
+
+  /@upstash/redis/1.0.2:
+    resolution: {integrity: sha512-1faUTdPgj5TgOImjmDRyg/+oKVkSNFD21edT/mriJCpd+IIkFFmC2sHzZhBg6xBLgoxjbN8ef16tndQxdaNkBg==}
+    engines: {node: '>=10'}
+    dependencies:
+      isomorphic-fetch: 3.0.0
+    transitivePeerDependencies:
+      - encoding
     dev: false
 
   /@vitejs/plugin-react/1.2.0:
@@ -3686,6 +3697,15 @@ packages:
   /isobject/3.0.1:
     resolution: {integrity: sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /isomorphic-fetch/3.0.0:
+    resolution: {integrity: sha512-qvUtwJ3j6qwsF3jLxkZ72qCgjMysPzDfeV240JHiGZsANBYd+EEuu35v7dfrJ9Up0Ak07D7GGSkGhCHTqg/5wA==}
+    dependencies:
+      node-fetch: 2.6.7
+      whatwg-fetch: 3.6.2
+    transitivePeerDependencies:
+      - encoding
     dev: false
 
   /isomorphic-unfetch/3.1.0:
@@ -6113,6 +6133,10 @@ packages:
 
   /webidl-conversions/3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
+    dev: false
+
+  /whatwg-fetch/3.6.2:
+    resolution: {integrity: sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA==}
     dev: false
 
   /whatwg-url/5.0.0:

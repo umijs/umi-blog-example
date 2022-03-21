@@ -9,6 +9,7 @@
   "dependencies": {
     "@prisma/client": "^3.10.0",
     "@umijs/plugins": "4.0.0-canary.20220316.1",
+    "@upstash/redis": "^1.0.2",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^8.5.1",
     "tailwindcss": "^3.0.23",
